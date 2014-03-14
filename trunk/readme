@@ -1,3 +1,4 @@
+############### THINGS DONE ###############
 -Got the API on lock
 	Authentication Done
 	
@@ -10,10 +11,15 @@ Base URL added
 .htaccess created at root with the rewrite
 permisession to .htaccess =755
 
+-Moved to git + repo on github
+
+
+############### THINGS TO DO ###############
 -You should probably do something like this: http://tools.ietf.org/html/rfc6749#section-10.12
 
 -perhaps use session storage in order to save usable data.
 
 -all using root as the view ... switch to calling API at some point
 
+############### CONTEXT ###############
 left off trying to get the form bet button working
