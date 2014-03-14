@@ -1,0 +1,17 @@
+create table users (
+	id INT,
+	venmo_id BIGINT UNIQUE,
+	name varchar(25),
+	PRIMARY KEY (id)
+);
+
+create table bets (
+	id INT,
+	initiated_user_id BIGINT,
+	competitor_user_id BIGINT,
+	bet VARCHAR(1000),
+	amount INT,
+	completed BOOL Default 0,
+	winning_user BIGINT default null,
+	primary key (id)
+);
